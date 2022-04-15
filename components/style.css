@@ -168,7 +168,7 @@ body {
     padding: 15px;
     justify-content: center;
 
-    flex-flow: wrap row ;
+    flex-flow: wrap row;
 }
 
 .numbers h3 {
@@ -190,33 +190,24 @@ body {
     flex-grow: 1;
 
 }
-
-.section3 {
-    display: flex;
-    justify-content: center;
-    margin: 50px
+.container-whatDo{
+    background-color: #f8f9fa;
+    padding: 20px 0px;
+   
 }
 
-.container-sec3 {
-    display: flex;
-}
-
-.text-sec3 {
-    width: 100%;
-    font-size: larger;
+.group{
+     display: flex;
+  
+    margin: 40px 90px;
 
 }
+  .col-1 , .col-2 , .col-3{
+     padding: 30px;
+     font-weight: 300;
+ }
 
-.text-sec3 h1 {
-    color: rgba(0, 0, 0, 0.103);
-    width: 100%;
-    font-weight: 900;
-    font-size: 100px;
-}
-
-.what-ido {
-    margin-top: -90px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-}
+ .col1 , .col2 , .col3 {
+     padding: 30px;
+     font-weight: 300;
+ }
